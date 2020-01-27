@@ -1,5 +1,7 @@
 # docker-chimera
 
+[![Docker Version](https://images.microbadger.com/badges/version/miguel1993/docker-chimera.svg)](https://microbadger.com/images/miguel1993/docker-chimera) [![Docker Image](https://images.microbadger.com/badges/image/miguel1993/docker-chimera.svg)](https://microbadger.com/images/miguel1993/docker-chimera) [![Docker Pulls](https://img.shields.io/docker/pulls/miguel1993/docker-chimera.svg)](https://microbadger.com/images/miguel1993/docker-chimera) [![Docker Stars](https://img.shields.io/docker/stars/miguel1993/docker-chimera.svg)](https://microbadger.com/images/miguel1993/docker-chimera) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Configure Chimera - First Run (Copy line by line):
 ```
 docker run -d -p 0.0.0.0:5001:5000 -v /mnt/user/system/appdata/chimera:/db -v /mnt/user/media/downloads:/downloads -e CONFIGURE=TRUE --name chimera miguel1993/docker-chimera
